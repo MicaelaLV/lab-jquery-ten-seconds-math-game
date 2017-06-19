@@ -1,1 +1,73 @@
 /*Use this file to add your styles -there are some cool img in the images path*/
+
+.game-background {
+  background: url("../images/board.jpg") no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+}
+
+.game-mat {
+  width: 80%;
+  height: 85%;
+  padding-top: 1rem;
+  margin: 5rem auto;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.game-options {
+  width: 80%;
+  height: 80%;
+  margin: 5rem auto;
+  padding-top: 2rem;
+  background: rgba(255, 255, 255, 1);
+  display: none;
+}
+
+#slider {
+  width: 60%;
+  margin: 5rem auto;
+}
+
+.game-operators {
+  width: 30%;
+  margin: 3rem auto;
+  }
+
+.input-group {
+  position: relative;
+  margin: 1rem;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+}
+
+.img-operator {
+  width: 2rem;
+  margin: 1rem;
+}
+
+.btn .btn-primary {
+  margin: 6rem auto;
+}
+
+.game-board {
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  width: 60%;
+  height: 60%;
+  margin: 5rem auto;
+  padding-top: 2rem;
+  background: rgba(255, 255, 255, 1);
+  text-align: center;
+  }
+
+.counter {
+  font-size: 40px;
+}
+
+.game-input {
+  position: relative;
+  top: 200px;
+  padding: 1rem;
+  }
